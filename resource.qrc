@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/button.qss</file>
+        <file>image/button_close.png</file>
+        <file>image/button_press.png</file>
+        <file>image/cart_close.png</file>
+        <file>image/cart_press.png</file>
+        <file>image/background.jpg</file>
+        <file>image/minus.png</file>
+        <file>image/plus.png</file>
+        <file>image/stock.png</file>
+        <file>image/background.png</file>
+    </qresource>
+</RCC>
