@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BoxWindow</class>
+ <widget class="QWidget" name="BoxWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>617</width>
+    <height>342</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MIR System</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="1" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="0">
+      <widget class="QListView" name="listView"/>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>提示信息</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton1">
+       <property name="text">
+        <string>病区</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton2">
+       <property name="text">
+        <string>医护</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton3">
+       <property name="text">
+        <string>箱体-MIR</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton4">
+       <property name="text">
+        <string>指纹</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton5">
+       <property name="text">
+        <string>配置</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton6">
+       <property name="text">
+        <string>报表</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

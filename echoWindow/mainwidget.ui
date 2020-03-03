@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChartWidget</class>
+ <widget class="QWidget" name="ChartWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>497</width>
+    <height>452</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>50</y>
+     <width>401</width>
+     <height>321</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="submitButton">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>410</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelButton">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>410</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
