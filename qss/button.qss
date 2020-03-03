@@ -1,0 +1,131 @@
+QWidget#BoxWindow{
+    background-image:url(:/image/background.png);
+}
+QWidget#BingquWindow{
+    background-image:url(:/image/background.png);
+}
+QWidget#YihuWindow{
+    background-image:url(:/image/background.png);
+}
+QWidget#SysConfigWindow{
+    background-image:url(:/image/background.png);
+}
+QWidget#FingerToolWindow{
+    background-image:url(:/image/background.png);
+}
+QWidget#XiangtiWindow{
+    background-image:url(:/image/background.png);
+}
+QWidget#StockContentWindow{
+    background-image:url(:/image/background.png);
+}
+QWidget#StockWindow{
+    background-image:url(:/image/background.png);
+}
+QWidget#ReportWindow{
+    background-image:url(:/image/background.png);
+}
+
+QPushButton{
+       min-width:80px;
+       min-height:32px;
+    }
+QPushButton{
+    color:rgb(233, 236, 243);
+    min-height:20;
+    border-style:solid;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop:0 rgb(226,236,241),
+                                stop: 0.3 rgb(33,184,150),
+                                  stop: 1 rgb(29,170,140));
+    border:1px;
+    border-radius:5px;padding:2px 4px;/*border-radius控制圆角大小*/
+    }
+    QPushButton:hover{  /*鼠标放上后*/
+    color:rgb(233, 236, 243);
+    min-height:20;
+    border-style:solid;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop:0 rgb(226,236,241),
+                                stop: 0.3 rgb(37,189,252),
+                                  stop: 1 rgb(32,170,240));
+    border:1px;
+    border-radius:5px;padding:2px 4px;
+    }
+    QPushButton:pressed{ /*按下按钮后*/
+    color:rgb(233, 236, 243);
+    min-height:20;
+    border-style:solid;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop:0 rgb(226,236,241),
+                                stop: 0.3 rgb(38,190,255),
+                                  stop: 1 rgb(33,184,240));
+    border:1px;
+    border-radius:5px;padding:2px 4px;
+    }
+
+QTableView QTableCornerButton::section {
+    color: white;/*文字颜色*/
+    background-color: rgb(41, 139, 201);/*背景色*/
+    border: 5px solid #418bc9;/*边框*/
+    border-radius:0px;/*边框圆角*/
+    border-color: rgb(41, 139, 201);/*边框颜色*/
+    font: 10px;/*字体大小*/
+    padding:0px 0 0 0px;/*内边距*/
+ }
+
+ QTableView {
+        background:transparent;/*背景透明*/
+    /*color: white;                                       /*表格内文字颜色*/
+   /* gridline-color: black;                              /*表格内框颜色*/
+    /*background-color: rgb(108, 108, 108);               /*表格内背景色*//*
+    /*alternate-background-color: rgb(64, 64, 64);
+    /*selection-color: white;                             /*选中区域的文字颜色*/
+   /* selection-background-color: rgb(77, 77, 77);        /*选中区域的背景色*/
+   /* border: 2px groove gray;
+    /*border-radius: 0px;
+    /*padding: 2px 4px;*/
+}
+
+QHeaderView {
+    color: white;
+    font: bold 10pt;
+    background-color: rgb(41, 139, 201);
+    border: 0px solid rgb(144, 144, 144);
+    border:0px solid rgb(191,191,191);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-radius:0px;
+    min-height:29px;
+}
+
+QHeaderView::section {
+    color: white;
+    background-color:rgb(41, 139, 201);
+    border: 5px solid #f6f7fa;
+    border-radius:0px;
+    border-color:rgb(41, 139, 201);
+}
+
+
+QLineEdit {
+    min-width:50px;
+    min-height:15px;
+    color: rgb(0, 0, 127);
+        border: 1px solid green;
+    border-radius: 2px;
+     padding: 1px;
+}
+
+QListView{
+    background-color: rgba(255, 255, 224, 50%);
+    font:bold 14px;
+    border:2px groove gray;
+    border-radius:10px;
+    padding:2px 4px;
+}
+
+
